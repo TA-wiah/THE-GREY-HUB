@@ -26,7 +26,7 @@ module.exports = {
       welcome: false,
       text: "Welcome @user to {group}! 🎉",
       bye: "Goodbye @user! 😢",
-      banner: "https://files.catbox.moe/f9gwsx.jpg",
+      banner: "https://files.catbox.moe/bthftj.png",
       welcomeImage: true
     };
 

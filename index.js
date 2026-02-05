@@ -790,7 +790,7 @@ const { state, saveCreds } =
           // Default banner (you can customize this)
           const banner = 
             db.groups[g]?.banner || 
-            "https://files.catbox.moe/f9gwsx.jpg";
+            "https://files.catbox.moe/bthftj.png";
 
           for (let user of data.participants) {
 

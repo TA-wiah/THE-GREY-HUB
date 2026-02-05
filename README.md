@@ -7,19 +7,13 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Multi-Device+WhatsApp+Bot;Built+with+Baileys;AI+Powered+%7C+Fast+%7C+Reliable;Auto+Downloads+%7C+Group+Tools;Always+Online+24%2F7)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="#features">Features</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#hosting">Hosting</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#support">Support</a>
+  <a href="##features">Features</a> •
+  <a href="##installation">Installation</a> •
+  <a href="##hosting">Hosting</a> •
+  <a href="##usage">Usage</a> •
+  <a href="##support">Support</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Baileys-00E676?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/stars/TA-wiah/THE-GREY-HUB?style=social"/>
@@ -302,8 +296,8 @@ Available for:
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TA-wiah)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/233547838433)
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/YOUR_INVITE_CODE)
-[![Join Community](https://img.shields.io/badge/Join%20Community-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/YOUR_LINK)
+[![WhatsApp Group](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JVijvoSgqZE7rLmObQdsdG)
+[![Join Community](https://img.shields.io/badge/Join%20Community-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029VafHRSWDzgTGeS2rGn3c)
 
 
 </div>
@@ -340,7 +334,7 @@ If you encounter any issues or have questions:
 
 - 📖 Check the [Wiki](https://github.com/TA-wiah/THE-GREY-HUB/wiki)
 - 🐛 Report bugs in [Issues](https://github.com/TA-wiah/THE-GREY-HUB/issues)
-- 💬 Join our [WhatsApp Group](https://chat.whatsapp.com/your-group-link)
+- 💬 Join our [WhatsApp Group](https://chat.whatsapp.com/JVijvoSgqZE7rLmObQdsdG)
 
 ---
 

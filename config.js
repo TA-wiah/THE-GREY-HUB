@@ -32,7 +32,7 @@ module.exports = {
 
   DATA_LINK: "https://yourdatashop.com",
   SHOP_LINK: "https://yourshop.com",
-  MENU_IMAGE: "https://files.catbox.moe/f9gwsx.jpg",
+  MENU_IMAGE: "https://files.catbox.moe/bthftj.png",
   BOT_FOOTER: "Powered by SalesBot",
 
   GROUP_JIDS: [
