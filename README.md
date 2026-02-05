@@ -2,7 +2,7 @@
 
 # 👻 GhostSlayer WhatsApp Bot
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=GhostSlayer%20Bot&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=THE-GREY-HUB%20Bot&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Multi-Device+WhatsApp+Bot;Built+with+Baileys;AI+Powered+%7C+Fast+%7C+Reliable;Auto+Downloads+%7C+Group+Tools;Always+Online+24%2F7)](https://git.io/typing-svg)
 
@@ -22,10 +22,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/TA-wiah/ghostslayer?style=social"/>
-  <img src="https://img.shields.io/github/forks/TA-wiah/ghostslayer?style=social"/>
-  <img src="https://img.shields.io/github/issues/TA-wiah/ghostslayer"/>
-  <img src="https://img.shields.io/github/license/TA-wiah/ghostslayer"/>
+  <img src="https://img.shields.io/github/stars/TA-wiah/THE-GREY-HUB?style=social"/>
+  <img src="https://img.shields.io/github/forks/TA-wiah/THE-GREY-HUB?style=social"/>
+  <img src="https://img.shields.io/github/issues/TA-wiah/THE-GREY-HUB"/>
+  <img src="https://img.shields.io/github/license/TA-wiah/THE-GREY-HUB"/>
 </p>
 
 ### 🚀 A powerful multi-device WhatsApp bot designed for automation, moderation, downloads, and AI chat.
@@ -44,8 +44,8 @@
 
 ### ⭐ Star this repo if you find it useful!
 
-[![Fork Repo](https://img.shields.io/github/forks/TA-wiah/ghostslayer?style=social)](https://github.com/TA-wiah/ghostslayer/fork)
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen?style=for-the-badge&logo=github)](https://github.com/TA-wiah/ghostslayer/archive/refs/heads/main.zip)
+[![Fork Repo](https://img.shields.io/github/forks/TA-wiah/THE-GREY-HUB?style=social)](https://github.com/TA-wiah/THE-GREY-HUB/fork)
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen?style=for-the-badge&logo=github)](https://github.com/TA-wiah/THE-GREY-HUB/archive/refs/heads/main.zip)
 
 </div>
 
@@ -119,8 +119,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/TA-wiah/ghostslayer
-cd ghostslayer
+git clone https://github.com/TA-wiah/THE-GREY-HUB
+cd THE-GREY-HUB
 
 # Install dependencies
 npm install
@@ -168,7 +168,7 @@ For 24/7 reliability, use a VPS:
 npm install -g pm2
 
 # Start bot with PM2
-pm2 start index.js --name ghostslayer
+pm2 start index.js --name THE-GREY-HUB
 
 # Save PM2 configuration
 pm2 save
@@ -186,7 +186,7 @@ Vercel is serverless and kills WebSocket connections, making it unsuitable for W
 ## 📁 Project Structure
 
 ```
-ghostslayer/
+THE-GREY-HUB/
 ├── commands/          # Bot commands
 ├── database/          # Data storage
 ├── sessions/          # WhatsApp sessions
@@ -206,7 +206,7 @@ Edit `config.js` to customize your bot:
 module.exports = {
   prefix: '.',                    // Command prefix
   owner:'1234567890',         // Owner numbers
-  botName: 'GhostSlayer',        // Bot name
+  botName: 'THE-GREY-HUB',        // Bot name
   shopLink: 'your-shop-link',    // Shop URL
   
   // Feature toggles
@@ -280,9 +280,9 @@ Update `package.json`:
 
 ### Get Started Now!
 
-[![Download ZIP](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/TA-wiah/ghostslayer/archive/refs/heads/main.zip)
-[![Clone Repo](https://custom-icon-badges.demolab.com/badge/-Clone-green?style=for-the-badge&logo=repo-clone&logoColor=white)](https://github.com/TA-wiah/ghostslayer.git)
-[![Fork](https://custom-icon-badges.demolab.com/badge/-Fork-orange?style=for-the-badge&logo=repo-forked&logoColor=white)](https://github.com/TA-wiah/ghostslayer/fork)
+[![Download ZIP](https://custom-icon-badges.demolab.com/badge/-Download-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/TA-wiah/THE-GREY-HUB/archive/refs/heads/main.zip)
+[![Clone Repo](https://custom-icon-badges.demolab.com/badge/-Clone-green?style=for-the-badge&logo=repo-clone&logoColor=white)](https://github.com/TA-wiah/THE-GREY-HUB.git)
+[![Fork](https://custom-icon-badges.demolab.com/badge/-Fork-orange?style=for-the-badge&logo=repo-forked&logoColor=white)](https://github.com/TA-wiah/THE-GREY-HUB/fork)
 
 </div>
 
@@ -292,7 +292,7 @@ Update `package.json`:
 
 <div align="center">
 
-**GhostSlayer Bot**  
+**THE-GREY-HUB Bot**  
 Developed by **Jeffrey**
 
 Available for:
@@ -338,8 +338,8 @@ This bot is for educational purposes only. Use responsibly and respect WhatsApp'
 
 If you encounter any issues or have questions:
 
-- 📖 Check the [Wiki](https://github.com/TA-wiah/ghostslayer/wiki)
-- 🐛 Report bugs in [Issues](https://github.com/TA-wiah/ghostslayer/issues)
+- 📖 Check the [Wiki](https://github.com/TA-wiah/THE-GREY-HUB/wiki)
+- 🐛 Report bugs in [Issues](https://github.com/TA-wiah/THE-GREY-HUB/issues)
 - 💬 Join our [WhatsApp Group](https://chat.whatsapp.com/your-group-link)
 
 ---
