@@ -1,0 +1,69 @@
+// ===== SETWELCOME COMMAND =====
+const { db, save } = require("../database");
+
+module.exports = {
+  name: "setwelcome",
+
+  execute: async (sock, m, args) => {
+
+    if (!m.isGroup)
+      return m.reply("❌ Group only command");
+
+    const meta =
+      await sock.groupMetadata(m.chat);
+
+    const admins =
+      meta.participants
+        .filter(p => p.admin)
+        .map(p => p.id);
+
+    // Only admins can set welcome message
+    if (!admins.includes(m.sender))
+      return m.reply("❌ Admin only");
+
+    const g = m.chat;
+
+    if (!args.length) {
+      return m.reply(
+        "❌ Provide welcome message!\n\n" +
+        "*Usage:*\n" +
+        "`.setwelcome <message>`\n\n" +
+        "*Variables:*\n" +
+        "• `@user` - mentions the user\n" +
+        "• `{name}` - user's name\n" +
+        "• `{group}` - group name\n\n" +
+        "*Example:*\n" +
+        "`.setwelcome Welcome @user to {group}! 🎉`"
+      );
+    }
+
+    // Initialize group data
+    db.groups[g] ??= {
+      welcome: false,
+      text: "Welcome @user 🎉",
+      bye: "Goodbye @user 😢"
+    };
+
+    // Save welcome message
+    db.groups[g].text = args.join(" ");
+    save();
+
+    // Preview the message
+    const preview = args.join(" ")
+      .replace(/@user/g, `@${m.sender.split('@')[0]}`)
+      .replace(/{name}/g, m.pushName || "User")
+      .replace(/{group}/g, meta.subject);
+
+    await sock.sendMessage(
+      m.chat,
+      {
+        text: 
+          `✅ *Welcome message saved!*\n\n` +
+          `*Preview:*\n${preview}\n\n` +
+          `💡 Enable with: \`.welcome on\``,
+        mentions: [m.sender]
+      },
+      { quoted: m }
+    );
+  }
+};

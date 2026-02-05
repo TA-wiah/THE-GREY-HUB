@@ -1,0 +1,25 @@
+{
+  "name": "the-grey-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node runner.js",
+    "test": "pm2 start index.js --name bot"
+  },
+  "keywords": [],
+  "author": "Jeffrey Tottimeh",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "axios": "^1.13.4",
+    "fs": "^0.0.1-security",
+    "pino": "^10.3.0",
+    "sharp": "^0.34.5",
+    "ytdl-core": "^4.11.5",
+    "ytpl": "^2.3.0"
+  }
+}
